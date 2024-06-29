@@ -1055,9 +1055,13 @@ html{
     transition: background-color 0.3s ease;
     font-size: 16px; /* Ensures the text fits properly */
     white-space: nowrap; /* Prevents text from breaking */
+    
   }
   
   #other-cards #shopnow:hover {
     background-color: #e64a19;
   }
-  
+  .hoverfont
+  {
+    color:white;
+  }
