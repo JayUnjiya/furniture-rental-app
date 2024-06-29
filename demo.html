@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farniture Rantal App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav style="top: 0%;" class="navbar navbar-expand-lg sticky" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html" id="logo"><span id="span1">E</span>Lectronic <span>Shop</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><img src="./images/menu.png" alt="" width="30px"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" id="search">
+                    <div class="input-group">
+                        <input class="form-control dropdown-toggle" type="search" placeholder="Search"
+                            aria-label="Search" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Search
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Home</a>
+                            <a class="dropdown-item" href="product.html">Product</a>
+                            <a class="dropdown-item" href="about.html">About</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+
+    <!-- home content -->
+    <section class="home">
+        <div class="content">
+            <h1> <span>Electronic Products</span>
+                <br>
+                Up To <span id="span2">50%</span> Off
+            </h1>
+            <p>For the first time , available for the best price ever.
+                <br>Grab the deals , HURRY UP!!
+            </p>
+            <div class="btn"><a href="#product-cards"><button>Shop Now</button></a></div>
+            <div class="icons">
+                <a style="text-decoration: none; margin-right: 20px;" href="login.html"><button>Login</button></a>
+                <a style="text-decoration: none;" href="register.html"><button>Register</button></a>
+            </div>
+
+        </div>
+        <div class="img">
+            <img src="./images/background.png" alt="">
+        </div>
+    </section>
+    <!-- home content -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed1.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Solimo Medusa</h3>
+                        <p class="text-center">Engineered Wood Queen Bed with Box Storage (Wenge finish)</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 12,999* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed2.jpg" alt="" id="p2">
+                    <div class="card-body">
+                        <h3 class="text-center">WoodenStreet™</h3>
+                        <p class="text-center">Clemency Wooden Double Size, Queen Size Bed with Box Storage and 1 Year
+                            Warranty, Premium Engineered Wood, Columbian Walnut Finish</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 11,599* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed3.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Wooden Craftico Bed</h3>
+                        <p class="text-center">Sheesham Wood King Size Double Bed with Box Storage for Bedroom Livig
+                            Room Home (Honey Finish)</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 28,749* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed4.jpg" alt="" id="p3">
+                    <div class="card-body">
+                        <h3 class="text-center">Nilkamal Willy Engineered Wood Bed</h3>
+                        <p class="text-center">Box Storage (Color - New Wenge/Sonama Oak, Delivery Condition - Knock
+                            Down) 1 Year Warranty (Queen Bed)</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 17,499* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed5.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">STRATA FURNITURE Sheesham Wood Bed</h3>
+                        <p class="text-center">Cot Bed Furniture Upholstered Double Bed for Bedroom Living Room Home -
+                            Grey Finish</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 16,389* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed6.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Eagle Furniture Solid Bed</h3>
+                        <p class="text-center">Wood Low Height Queen Size Bed Without Storage | Wooden Double Bed | Low
+                            Floor/Lying/Rise/Level/Profile Cot Bed</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 11,999* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed7.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">STRATA FURNITURE Solid Sheesham Wood King</h3>
+                        <p class="text-center">Poster Bed with Storage Wooden Double Bed for Bedroom Living Room Home
+                            (Natural Finish)</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 30,499* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed8.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">SABTA Craft Solid Sheesham Wood Bed</h3>
+                        <p class="text-center">Low Height Queen Size Bed without Storage | Wooden Double Bed | Low
+                            Floor/Lying/Rise/Level/Profile Cot with Cushioned Headboard | Rosewood, Brown Finish & Blue
+                        </p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 17,949* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed9.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">SABTA Craft Sheesham Wood Bed</h3>
+                        <p class="text-center">Queen Size Bed without Storage | Solid Wood Bed | Double Bed Cot with
+                            Cushioned Headboard for Bedroom | Rosewood, Natural Finish & Green</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 17,999* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed9.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">SONA ART & CRAFTS Sheesham Wood Bed</h3>
+                        <p class="text-center">King Size Bed without Storage Soild Wooden King Size Cot Bed Double Bed
+                            Furniture for Bedroom Living Room Home - (Walnut Finish) King_Dimond_New</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 19,999* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed10.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Acacia Solid Sheesham Wood Bed</h3>
+                        <p class="text-center">Queen Size Bed for Bedroom | Upholstered Bed | Wooden Platform Bed Cot
+                            Double Bed for Hotels with Upholstery Premium Fabric | 6.5 x 5 Ft | Rosewood, Browndust</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 18,500* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="/images/bed11.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">SONA ART & CRAFTS Sheesham Wood Bed</h3>
+                        <p class="text-center">King Size Bed without Storage Solid Wooden King Size Cot Bed Double Bed
+                            Furniture for Bedroom Living Room Home - (Teak Finish) K_4</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h2>₹ 20,999* <a href="payment.html"><span>
+                                    <li class="fa-solid fa-cart-shopping"></li>
+                                </span></a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- product cards -->
+
+    <!-- other cards -->
